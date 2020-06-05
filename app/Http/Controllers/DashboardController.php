@@ -15,7 +15,7 @@ class DashboardController extends Controller
             'validation' => true,
             'datatables' => true
         );
-        return view('dashboard.dashboard')->with($data);
+        return view('dashboard.dashboard-home')->with($data);
     }
 
     public function changePassword()
